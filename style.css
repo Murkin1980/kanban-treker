@@ -41,6 +41,9 @@ body {
 
 .eyebrow {
     margin: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
     color: var(--accent);
     text-transform: uppercase;
     letter-spacing: 0.08em;
@@ -84,6 +87,9 @@ h1 {
 
 .task-form button {
     border: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
     border-radius: 0.8rem;
     padding: 0.8rem 1rem;
     background: linear-gradient(135deg, #0ea5e9, #2563eb);
@@ -120,7 +126,15 @@ h1 {
 .column h2 {
     margin: 0;
     font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
 }
+
+.column h2 .bi {
+    color: var(--accent);
+}
+
 
 .badge {
     display: inline-flex;
@@ -168,6 +182,9 @@ h1 {
 
 .task__delete {
     border: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     background: transparent;
     color: var(--text-muted);
     font-size: 1rem;
